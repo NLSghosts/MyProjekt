@@ -1,4 +1,36 @@
-{
-    background-color:aquamarine
+body {
+    background-color:#000000;
+    text-align: center;
+    color: white;  font-size: 22px;
+    font-weight: bold;
+    color: white;
+    animation: glow-animation 1s infinite alternate;
+}
+h1 {
+    text-align: center; 
+    }
+h2 {
+    text-align: center;
+} 
+glow-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    animation: glow-animation 1s infinite alternate;
 }
 
+@keyframes glow-animation {
+    0% {
+        text-shadow: 0 0 5px #fffF00, 0 0 5px #ff0000, 0 0 15px #ff6200, 0 0 20px #ff0000;    }
+
+    50% {
+        text-shadow: 0 0 10px #fffF00, 0 0 10px #ff0000, 0 0 30px #ff6200, 0 0 40px #ff0000;
+    }
+
+    100% {
+        text-shadow: 0 0 5px #fffF00, 0 0 5px #ff0000, 0 0 15px #ff6200, 0 0 20px #ff0000;
+    }
+}
+.glow-text {
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
+}
