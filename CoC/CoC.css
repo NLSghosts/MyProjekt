@@ -12,12 +12,6 @@ h1 {
 h2 {
     text-align: center;
 } 
-glow-text {
-    font-size: 48px;
-    font-weight: bold;
-    color: white;
-    animation: glow-animation 1s infinite alternate;
-}
 
 @keyframes glow-animation {
     0% {
@@ -30,7 +24,4 @@ glow-text {
     100% {
         text-shadow: 0 0 5px #fffF00, 0 0 5px #ff0000, 0 0 15px #ff6200, 0 0 20px #ff0000;
     }
-}
-.glow-text {
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
 }
